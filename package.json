@@ -3,7 +3,7 @@
   "version": "0.0.0",
   "private": true,
   "scripts": {
-    "start": "node ./built/run.js",
+    "start": "node ./built/app.js",
     "dev": "DEBUG=* nodemon",
     "build": "./node_modules/.bin/ts-node build.ts"
   },
@@ -15,7 +15,7 @@
     "ignore": [
       "src/public"
     ],
-    "exec": "./node_modules/.bin/ts-node ./src/run.ts"
+    "exec": "./node_modules/.bin/ts-node ./src/app.ts"
   },
   "dependencies": {
     "cookie-parser": "~1.4.4",
